@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genius</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <audio id="clip1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+    </audio>
+    <audio id="clip2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+    </audio>
+    <audio id="clip3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+    </audio>
+    <audio id="clip4">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+    </audio>
+</head>
+<body>
+    <header>
+        <h1>GENIUS GAME</h1>
+    </header>
+    <div class="outer-circle">
+        <div class="top-left"></div>
+        <div class="top-right"></div>
+        <div class="bottom-left"></div>
+        <div class="bottom-right"></div>
+        <div class="inner-circle">
+            <div class="menu">
+                <input type="checkbox" class="toggle" id="power-box">
+                <p id="power-txt">On/Off</p>
+                <button class="start-btn">START</button>
+                <div class="turn-counter"></div>
+                <p id="level-txt">level</p>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+<script src="script.js"></script>
+</body>
+</html>
